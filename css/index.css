@@ -1,0 +1,19 @@
+body{
+     background-image: url("../images/backgroun1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header a{
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+#service-section{
+    align-items: center;
+    margin: 3rem 0;
+    gap: 1.5rem;
+     display:flex;
+     color: aliceblue;
+     justify-content: space-around;
+ }
