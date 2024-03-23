@@ -1,22 +1,31 @@
-*{
+* {
     margin: 0px;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+        "wdth" 100;
 
 }
-* h2{
+
+body {
+    background-image: url("../images/5393627.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* h2 {
     font-size: 24px;
 }
+
 html {
     min-height: 100%;
     position: relative;
-    background: rgb(2,0,36);
-    background: linear-gradient(95deg, rgba(2,0,36,1) 0%, rgba(0,28,60,1) 35%, rgba(200,62,71,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(95deg, rgba(2, 0, 36, 1) 0%, rgba(0, 28, 60, 1) 35%, rgba(200, 62, 71, 1) 100%);
 }
-header{
+
+/* header{
     margin-bottom: 1.75rem;
     padding: 1rem;
     display: flex;
@@ -36,30 +45,32 @@ header nav ul li{
 #banner-section{
     display: flex;
     justify-content: center;
-}
+}*/
 
 .service-element {
     display: flex;
-    font-size:1.25rem ;
+    font-size: 1.25rem;
     flex-direction: column;
     align-items: center;
     gap: 0.75rem;
 }
 
-.service-element img{
+.service-element img {
     border-radius: 12px;
 }
+
 #sevice-section td {
     padding: 12px;
 }
-.testimonials-section{
-background-color: #d9d9d9;
+
+.testimonials-section {
+    background-color: #d9d9d9;
 
 }
 
-footer{
-   position:absolute;
-   bottom: 0;
+footer {
+    position: absolute;
+    bottom: 0;
     padding: 20px 0;
     display: flex;
     width: 100%;
@@ -69,7 +80,7 @@ footer{
 footer span {
     color: aliceblue;
     background-color: #001c3c;
-    padding:12px;
+    padding: 12px;
     line-height: 24px;
     margin-right: 12px;
     border-radius: 12px;
