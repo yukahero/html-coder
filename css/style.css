@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  font-family: "Lora", serif;
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
@@ -10,29 +10,7 @@ body {
   background-image: url("../images/5393627.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media (min-width: 1440px) {
-  header nav {
-    margin: 0 auto;
-    padding-top: 4.5rem !important;
-    width: 69rem;
-  }
-  main {
-    width: 69rem;
-    margin: 0 auto;
-  }
-  footer div {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding: 1.25rem;
-    width: 69rem;
-  }
-}
-
-* h2 {
-  font-size: 24px;
+  min-height: 100vh;
 }
 
 /*html {
@@ -47,7 +25,32 @@ body {
   );
 }*/
 
-.service-element {
+.active {
+  color: #1881f2 !important;
+}
+
+header nav ul li a {
+  font-weight: 600 !important;
+}
+
+.banner-section__title {
+  color: #c83e47;
+  font-weight: bold;
+}
+
+.banner-section__subtitle {
+  color: #001c3c;
+  font-weight: bold;
+}
+
+.service-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.service-section__service-element {
   display: flex;
   font-size: 1.25rem;
   flex-direction: column;
@@ -55,12 +58,8 @@ body {
   gap: 0.75rem;
 }
 
-.service-element img {
+.service-section__service-element img {
   border-radius: 12px;
-}
-
-#sevice-section td {
-  padding: 12px;
 }
 
 .testimonials-section {
@@ -74,4 +73,38 @@ footer span {
   line-height: 24px;
   margin-right: 12px;
   border-radius: 12px;
+}
+
+@media (min-width: 1440px) {
+  header nav {
+    margin: 0 auto;
+    padding-top: 4.5rem !important;
+    width: 69rem;
+  }
+  header nav a {
+    font-size: 3rem !important;
+  }
+  header nav ul li a {
+    font-size: 1.125rem !important;
+  }
+  main {
+    width: 69rem;
+    margin: 0 auto;
+  }
+  .banner-section__title {
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+  }
+
+  .banner-section__subtitle {
+    font-size: 2rem;
+    list-style: 2.375rem;
+  }
+  footer div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 1.25rem;
+    width: 69rem;
+  }
 }
