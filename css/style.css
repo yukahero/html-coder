@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  color: #001c3c !important;
 }
 
 /*html {
@@ -27,6 +28,12 @@ body {
 
 .active {
   color: #1881f2 !important;
+}
+
+footer,
+main,
+header {
+  margin: 0 3rem;
 }
 
 header nav ul li a {
@@ -66,6 +73,10 @@ header nav ul li a {
   background-color: #d9d9d9;
 }
 
+#nuestro-equipo {
+  margin-top: 4rem;
+}
+
 footer span {
   color: aliceblue;
   background-color: #001c3c;
@@ -100,6 +111,24 @@ footer span {
     font-size: 2rem;
     list-style: 2.375rem;
   }
+
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  /*#nuestro-equipo div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }*/
+
+  #nuestro-equipo img {
+    border-radius: 12px;
+  }
+
   footer div {
     display: flex;
     justify-content: space-evenly;
