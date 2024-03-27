@@ -40,6 +40,14 @@ header nav ul li a {
   font-weight: 600 !important;
 }
 
+header nav a {
+  font-size: 2rem !important;
+}
+
+header nav ul li a {
+  font-size: 1.125rem !important;
+}
+
 .banner-section__title {
   color: #c83e47;
   font-weight: bold;
@@ -77,13 +85,26 @@ header nav ul li a {
   margin-top: 4rem;
 }
 
+#nuestro-equipo img {
+  border-radius: 12px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1.25rem;
+  gap: 1rem;
+}
+
 footer span {
-  color: aliceblue;
   background-color: #001c3c;
-  padding: 12px;
+  border-radius: 12px;
+  color: aliceblue;
   line-height: 24px;
   margin-right: 12px;
-  border-radius: 12px;
+  padding: 12px;
 }
 
 @media (min-width: 1440px) {
@@ -125,15 +146,7 @@ footer span {
     flex-direction: row;
   }*/
 
-  #nuestro-equipo img {
-    border-radius: 12px;
-  }
-
   footer div {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding: 1.25rem;
     width: 69rem;
   }
 }
